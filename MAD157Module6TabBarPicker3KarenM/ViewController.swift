@@ -42,7 +42,8 @@ class ViewController: UIViewController {
             //..stores the text from the text field (savedText) and displays it in the labelResult IBOutlet
             self.labelResult.text = savedText.text
             self.labelResult.textColor = UIColor.purple
-            self.labelResult.font = UIFont.init(name: "Courier", size: 24.0)
+            //self.labelResult.font = UIFont.init(name: "Courier", size: 24.0)
+            self.labelResult.font = UIFont.init(name: "Noteworthy", size: 24.0)
             
         })
         
